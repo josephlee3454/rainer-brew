@@ -1,0 +1,34 @@
+/* the top main pic */
+
+
+.three-card{
+    padding-top: 4%;
+    width: 80%;
+    padding-left: 20%;
+}
+.gallery-container{
+    padding:5%;
+}
+.card-img-top{
+    height: 250px;
+    width: 250px;
+}
+.border-box{
+    border-style:solid;
+    border-color:black;
+    padding-bottom: 1%;
+    background-color: burlywood;
+}
+.img-about{
+    /* border-style:solid;
+    border-color:yellow; */
+    height: 300px;
+    width: 800px;
+    padding-left: 30%;
+}
+.text-box-about-me{
+    padding: 2%;
+    margin-left: 10%;
+    width: 80%;
+  
+}

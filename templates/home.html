@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/home.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <!-- Intro settings -->
+    <style>
+      /* Default height for small devices */
+      #intro-example {
+        height: 400px;
+      }
+  
+      /* Height for devices larger than 992px */
+      @media (min-width: 992px) {
+        #intro-example {
+          height: 600px;
+        }
+      }
+    </style>
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <img
+              src="assets/rainerLogo.jpg"
+              alt="..."
+              width="60px"
+            />
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+    <!-- Background image -->
+    <div
+      id="intro-example"
+      class="p-5 text-center bg-image"
+      style="background-image: url('assets/brewary.jpg');"
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Welcome to the Rainer Brewing company</h1>
+            <h5 class="mb-4">Seattles oldest running brewary</h5>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <div class="three-card">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="assets/growler.jpg"
+            class="card-img-top"
+            alt="rainerbeer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">We offer Growlers</h5>
+            <p class="card-text">
+              We offer refills on growlers of our entire tap list 
+            </p>
+          </div>
+     
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="assets/beerGarden.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Come Check out our roof top beer garden</h5>
+            <p class="card-text">
+              when the weather is amazing we have one of the best veiws for any beer garden in seattle.
+            </p>
+          </div>
+   
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="assets/barGames.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Game!!!!</h5>
+            <p class="card-text">
+              We have over 20 retro games included in our bar arcade !!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+
+    </div>
+
+  
+ 
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" > Rainer brewing Co.</a>
+    </div>
+
+  </footer>
+</body>
+</html>
